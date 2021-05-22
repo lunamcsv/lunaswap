@@ -9,3 +9,5 @@ Cách triển khai Luna Swap:
 5. Deploy LunaRouter với đầu vào là địa chỉ của 2 hợp đồng đã deploy ở trên
 6. Sử dụng hàm addLiquidityETH để test Add pool, trước khi gọi hàm này cần Approve cho hợp đồng token cần thêm
 7. Ví dụ với token USDT ta cần approve với đầu vào là địa chỉ hợp đồng LunaRouter là người được ủy quyền và số token ủy quyền tối đa: 2^256 - 1, sau khi ủy quyền mới có thể thêm cặp
+
+* Bước 2 và 3 có thể thay thế bằng cách chỉ cần deploy MiniFactory
